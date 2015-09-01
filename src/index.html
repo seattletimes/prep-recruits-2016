@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+  <head>
+    <title><%= json.project.title %></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <%= t.include("partials/_adHead.html") %>
+  </head>
+  <body>
+
+    <responsive-child ng-app="prep-recruits">
+      <div ng-controller="PrepController">
+
+        <table>
+          <thead>
+            <tr>
+              <th ng-repeat="header in headers" ng-click="sortTable(header)" ng-class="{clickable: header.short !== 'offers', down: selected == header && sortOrder == -1, up: selected == header && sortOrder == 1, selected: header == selected}">{{header.title}}</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr ng-repeat="recruit in recruits"> 
+              <td>{{recruit.first}} {{recruit.last}}</td>
+              <td>{{recruit.position}}</td>
+              <td>{{recruit.school}}</td>
+              <td>{{recruit.commitment}}</td>
+              <td>{{recruit.offers}}</td>
+            </tr>
+          </tbody>
+        </table>
+
+      </div>
+    </responsive-child>
+
+    <script>
+      var prepData = <%= JSON.stringify(json.prepData) %>;
+    </script>
+    <script src="app.js"></script>
+    <% if (json.project.production) { %>
+    <%= !json.project.embedded ? t.include("partials/_adFoot.html") : "" %>
+    <%= t.include("partials/_workHere.html") %>
+    <% } %>
+  </body>
+</html>
