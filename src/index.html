@@ -12,19 +12,24 @@
     <responsive-child ng-app="prep-recruits">
       <div ng-controller="PrepController">
 
+        <div class="search-container">
+          <span class="search">Search:</span>
+          <input type="text" ng-model="searchText">
+        </div>
+
         <table>
           <thead>
             <tr>
-              <th ng-repeat="header in headers" ng-click="sortTable(header)" ng-class="{clickable: header.short !== 'offers', down: selected == header && sortOrder == -1, up: selected == header && sortOrder == 1, selected: header == selected}">{{header.title}}</th>
+              <th ng-repeat="header in headers" class="{{header.short}}" ng-click="sortTable(header)" ng-class="{clickable: header.short !== 'offers', down: selected == header && sortOrder == -1, up: selected == header && sortOrder == 1, selected: header == selected}">{{header.title}}</th>
             </tr>
           </thead>
           <tbody>
-            <tr ng-repeat="recruit in recruits"> 
-              <td>{{recruit.first}} {{recruit.last}}</td>
-              <td>{{recruit.position}}</td>
-              <td>{{recruit.school}}</td>
-              <td>{{recruit.commitment}}</td>
-              <td>{{recruit.offers}}</td>
+            <tr ng-repeat="recruit in recruits | filter:searchText"> 
+              <td class="name">{{recruit.first}} {{recruit.last}}</td>
+              <td class="position">{{recruit.position}}</td>
+              <td class="school">{{recruit.school}}</td>
+              <td class="commitment">{{recruit.commitment}}</td>
+              <td class="offers">{{recruit.offers}}</td>
             </tr>
           </tbody>
         </table>
