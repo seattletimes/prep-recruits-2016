@@ -27,6 +27,7 @@ body {
 
 table {
   border-collapse: collapse;
+  width: 100%;
 
   th {
     text-transform: uppercase;
@@ -93,5 +94,14 @@ table {
     @media @mobile {
       font-size: 8px;
     }
+  }
+}
+
+.no-results {
+  display: none;
+  font-style: italic;
+
+  &:first-child {
+    display: table-row;
   }
 }

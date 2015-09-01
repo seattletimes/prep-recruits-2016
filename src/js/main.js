@@ -44,7 +44,5 @@ app.controller("PrepController", ["$scope", function($scope) {
       }
     });
   };
-
   $scope.sortTable($scope.selected);
 }]);
-
