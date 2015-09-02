@@ -10,8 +10,8 @@
     "weight": 207,
     "commitment": "Georgia",
     "offers": "",
-    "rivals": "No. 4",
-    "scout": "No. 11"
+    "rivals": 4,
+    "scout": 11
   },
   {
     "title": "Brandon",
@@ -22,10 +22,10 @@
     "year": "Sr.",
     "height": "6-0",
     "weight": 215,
-    "commitment": "University of Washington",
+    "commitment": "Wasington",
     "offers": "",
-    "rivals": "No. 13",
-    "scout": "No. 141"
+    "rivals": 13,
+    "scout": 141
   },
   {
     "title": "Joel",
@@ -38,7 +38,7 @@
     "weight": 250,
     "commitment": "",
     "offers": "",
-    "rivals": "No. 14",
+    "rivals": 14,
     "scout": ""
   },
   {
@@ -51,8 +51,8 @@
     "height": "6-4",
     "weight": 225,
     "commitment": "",
-    "offers": "Alabama, Arizona, Arizona State, California, Michigan, Oregon, Oregon State, USC, Utah, Washington, Washington State",
-    "rivals": "No. 16",
+    "offers": "Alabama, Arizona, Arizona State, Cal, Michigan, Oregon, Oregon State, USC, Utah, Washington, WSU",
+    "rivals": 16,
     "scout": ""
   },
   {
@@ -66,7 +66,7 @@
     "weight": 180,
     "commitment": "",
     "offers": "",
-    "rivals": "No. 18",
+    "rivals": 18,
     "scout": ""
   },
   {
@@ -80,7 +80,7 @@
     "weight": 215,
     "commitment": "",
     "offers": "",
-    "rivals": "No. 32",
+    "rivals": 32,
     "scout": ""
   },
   {
@@ -92,9 +92,9 @@
     "year": "Sr.",
     "height": "5-11",
     "weight": 197,
-    "commitment": "University of Washington",
+    "commitment": "Washington",
     "offers": "",
-    "rivals": "No. 46",
+    "rivals": 46,
     "scout": ""
   },
   {
@@ -120,7 +120,7 @@
     "year": "Sr.",
     "height": "6-2",
     "weight": 200,
-    "commitment": "University of Arizona",
+    "commitment": "Arizona",
     "offers": "",
     "rivals": "",
     "scout": ""
@@ -134,7 +134,7 @@
     "year": "Sr.",
     "height": "6-3",
     "weight": 220,
-    "commitment": "University of California",
+    "commitment": "Cal",
     "offers": "",
     "rivals": "",
     "scout": ""
@@ -149,7 +149,7 @@
     "height": "6-0",
     "weight": 220,
     "commitment": "",
-    "offers": "Boise State, Idaho, New Mexico, Notre Dame, Oregon, Oregon State, Utah, Washington, Washington State",
+    "offers": "Boise State, Idaho, New Mexico, Notre Dame, Oregon, Oregon State, Utah, Washington, WSU",
     "rivals": "",
     "scout": ""
   },
@@ -162,7 +162,7 @@
     "year": "Sr.",
     "height": "6-5",
     "weight": 265,
-    "commitment": "Washington State University",
+    "commitment": "WSU",
     "offers": "",
     "rivals": "",
     "scout": ""
@@ -190,7 +190,7 @@
     "year": "Sr.",
     "height": "6-5",
     "weight": 265,
-    "commitment": "Washington State University",
+    "commitment": "WSU",
     "offers": "",
     "rivals": "",
     "scout": ""
@@ -218,7 +218,7 @@
     "year": "Sr.",
     "height": "6-0",
     "weight": 205,
-    "commitment": "University of Washington",
+    "commitment": "Washington",
     "offers": "",
     "rivals": "",
     "scout": ""
@@ -233,7 +233,7 @@
     "height": "5-11",
     "weight": 274,
     "commitment": "",
-    "offers": "California, Montana, Montana State, Oregon State, UC Davis, Washington, Wyoming",
+    "offers": "Cal, Montana, Montana State, Oregon State, UC Davis, Washington, Wyoming",
     "rivals": "",
     "scout": ""
   },
@@ -246,7 +246,7 @@
     "year": "Sr.",
     "height": "6-1",
     "weight": 180,
-    "commitment": "Washington State University",
+    "commitment": "WSU",
     "offers": "",
     "rivals": "",
     "scout": ""
@@ -260,7 +260,7 @@
     "year": "Sr.",
     "height": "6-1",
     "weight": 170,
-    "commitment": "Washington State University",
+    "commitment": "WSU",
     "offers": "",
     "rivals": "",
     "scout": ""
@@ -274,7 +274,7 @@
     "year": "Sr.",
     "height": "6-6",
     "weight": 280,
-    "commitment": "Boise State University",
+    "commitment": "Boise State",
     "offers": "",
     "rivals": "",
     "scout": ""
@@ -288,7 +288,7 @@
     "year": "Sr.",
     "height": "6-4",
     "weight": 210,
-    "commitment": "University of California",
+    "commitment": "Cal",
     "offers": "",
     "rivals": "",
     "scout": ""
@@ -331,7 +331,7 @@
     "height": "6-5",
     "weight": 201,
     "commitment": "",
-    "offers": "Montana, Oregon State, Washington, Washington State, Wyoming",
+    "offers": "Montana, Oregon State, Washington, WSU, Wyoming",
     "rivals": "",
     "scout": ""
   },
@@ -372,7 +372,7 @@
     "year": "Sr.",
     "height": "6-3",
     "weight": 233,
-    "commitment": "University of Washington",
+    "commitment": "Washington",
     "offers": "",
     "rivals": "",
     "scout": ""
@@ -401,7 +401,7 @@
     "height": "6-3",
     "weight": 260,
     "commitment": "",
-    "offers": "Army, Columbia, San Diego, Washington State, Wyoming",
+    "offers": "Army, Columbia, San Diego, WSU, Wyoming",
     "rivals": "",
     "scout": ""
   },
@@ -443,7 +443,7 @@
     "height": "6-8",
     "weight": 300,
     "commitment": "",
-    "offers": "Oklahoma State, Portland State, Utah State, Washington, Washington State",
+    "offers": "Oklahoma State, Portland State, Utah State, Washington, WSU",
     "rivals": "",
     "scout": ""
   },
@@ -513,7 +513,7 @@
     "height": "6-2",
     "weight": 230,
     "commitment": "",
-    "offers": "Alabama, Boise State, Boston College, Colorado, Cornell, Eastern Washington, Harvard, Indiana, Missouri, Nebraska, Notre Dame, Ohio, Oregon, Oregon State, Stanford, UCLA, Utah, Washington, Washington State",
+    "offers": "Alabama, Boise State, Boston College, Colorado, Cornell, Eastern Washington, Harvard, Indiana, Missouri, Nebraska, Notre Dame, Ohio, Oregon, Oregon State, Stanford, UCLA, Utah, Washington, WSU",
     "rivals": "",
     "scout": ""
   },
@@ -527,7 +527,7 @@
     "height": "5-11",
     "weight": 180,
     "commitment": "",
-    "offers": "Arizona State, Idaho, Oregon, Oregon State, Stanford, UCLA, Washington, Washington State, Wisconsin",
+    "offers": "Arizona State, Idaho, Oregon, Oregon State, Stanford, UCLA, Washington, WSU, Wisconsin",
     "rivals": "",
     "scout": ""
   },
@@ -596,7 +596,7 @@
     "year": "Sr.",
     "height": "6-2",
     "weight": 200,
-    "commitment": "University of Montana",
+    "commitment": "Montana",
     "offers": "",
     "rivals": "",
     "scout": ""

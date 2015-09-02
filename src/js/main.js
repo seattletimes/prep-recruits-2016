@@ -15,7 +15,8 @@ app.controller("PrepController", ["$scope", function($scope) {
     { title: "Position", short: "position" },
     { title: "School", short: "school" },
     { title: "Commitment", short: "commitment" },
-    { title: "Offers", short: "offers" }
+    { title: "Offers", short: "offers" },
+    { title: "Ranking", short: "rivals" }
   ];
 
   $scope.selected = $scope.headers[0];
@@ -32,8 +33,8 @@ app.controller("PrepController", ["$scope", function($scope) {
     }
 
     $scope.recruits.sort(function(a, b) {
-      a = a[header.short] || "ZZZZZZZZZZ";
-      b = b[header.short] || "ZZZZZZZZZZ";
+      a = a[header.short] || ( header.short == "rivals" ? 999999999 : "ZZZZZZZZZZ" );
+      b = b[header.short] || ( header.short == "rivals" ? 999999999 : "ZZZZZZZZZZ" );
 
       if (a > b) {
         return 1 * $scope.sortOrder;
