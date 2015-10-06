@@ -24,7 +24,7 @@ app.controller("PrepController", ["$scope", function($scope) {
 
   $scope.sortTable = function(header) {
     if (header.short == "offers") return;
-    
+
     if ($scope.selected == header) {
       $scope.sortOrder *= -1;
     } else {
