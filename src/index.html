@@ -10,9 +10,11 @@
   <body>
 
     <responsive-child ng-app="prep-recruits">
-      
+
       <img src="./assets/megaboard.jpg">
-      
+
+      <p>Welcome to The Seattle Times’ high school recruiting Megaboard, the one place you can track the offers and commitments of all Washington state football recruits. We’ll keep updating this page through National Signing Day, on Feb. 3, and include underclassmen as well.</p>
+
       <div ng-controller="PrepController">
 
         <div class="search-container">
@@ -27,7 +29,7 @@
             </tr>
           </thead>
           <tbody>
-            <tr ng-repeat="recruit in recruits | filter:searchText"> 
+            <tr ng-repeat="recruit in recruits | filter:searchText">
               <td class="name">{{recruit.first}} {{recruit.last}}</td>
               <td class="position">{{recruit.position}}</td>
               <td class="school">{{recruit.school}}</td>
@@ -44,8 +46,31 @@
           </tbody>
         </table>
 
+        <div class="divider"></div>
+
+       <div class="credits">
+         Data compiled by <span class="credit-name">Solange Reyner</span>, development by <span class="credit-name">Audrey Carlsen</span> and <span class="credit-name">Nick Eaton</span>
+       </div>
+       <div class="links">
+         <div class="links-header">More on high school sports in The Seattle Times:</div>
+
+         <a href="http://www.seattletimes.com/sports/high-school/">High school news</a> | <a href="http://seattletimes.sportngin.com/schedule/day/league_instance/31924?subseason=225972">Football scores and stats</a> | <a href="http://www.seattletimes.com/sports">Seattle Times Sports</a>
+       </div>
+       <div class="copyright">Copyright 2015 The Seattle Times</div>
+     </div>
+
+     <div class="bottom-ad"><%= t.include("partials/_ad.html", { type: "bannerBottom" }) %>
+     </div>
+
       </div>
     </responsive-child>
+
+    <footer>
+          <a class="logo" href="http://seattletimes.com">
+            <img src="./assets/st-logo.png">
+          </a>
+          <a class="share-bottom"></a>
+        </footer>
 
     <script>
       var prepData = <%= JSON.stringify(json.prepData) %>;
