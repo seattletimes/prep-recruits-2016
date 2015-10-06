@@ -18,6 +18,8 @@ nav.top-bar {
   @media @mobile {
     height: 40px;
     background: white;
+    margin-bottom: 0px;
+    border-bottom: 0;
   }
 
   .logo {
@@ -38,7 +40,7 @@ nav.top-bar {
 
       @media @mobile {
         padding: 5px;
-        height: 50px;
+        // height: 50px;
       }
     }
   }
@@ -47,6 +49,13 @@ nav.top-bar {
 .outer {
   max-width: 960px;
   margin: auto;
+  padding: 5px;
+}
+
+.welcome {
+  @media @mobile {
+    font-size: 16px;
+  }
 }
 
 .search-container {
@@ -73,8 +82,8 @@ table {
     font-size: 12px;
 
     @media @mobile {
-      font-size: 10px;
-      padding: 3px 4px;
+      font-size: 9px;
+      padding: 2px 3px;
     }
   }
 
@@ -87,8 +96,8 @@ table {
     font-size: 14px;
 
     @media @mobile {
-      font-size: 11px;
-      padding: 3px 4px;
+      font-size: 10px;
+      padding: 2px 3px;
     }
   }
 }
@@ -178,15 +187,10 @@ table {
   font-weight: 300;
   color: @df-middle-gray;
   padding-bottom: 15px;
-
-  @media @mobile {
-    padding-bottom: 0px;
-  }
 }
 
 .ad {
   text-align: center;
-  margin-bottom: 10px;
 }
 
 .bottom-ad {
@@ -198,10 +202,10 @@ table {
 footer {
   background: green;
   opacity: 0.95;
-  padding: 8px;
+  padding: 6px 8px 4px 8px;
   position: relative;
   z-index: 99;
-
+  margin-top: 10px;
   .logo {
     float: left;
     margin-right: 10px;
@@ -220,7 +224,6 @@ footer {
 
   .share-bottom {
     float: right;
-    padding-top: 4px;
 
     label {
       background: green !important;
