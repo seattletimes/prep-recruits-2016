@@ -1,5 +1,5 @@
-// require("./lib/social");
-// require("./lib/ads");
+require("./lib/social");
+require("./lib/ads");
 // var track = require("./lib/tracking");
 
 require("component-responsive-frame/child");
@@ -47,3 +47,10 @@ app.controller("PrepController", ["$scope", function($scope) {
   };
   $scope.sortTable($scope.selected);
 }]);
+
+var Share = require("share");
+new Share(".share-bottom", {
+  ui: {
+    flyout: "top left"
+  }
+});

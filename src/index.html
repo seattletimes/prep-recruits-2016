@@ -9,7 +9,7 @@
   </head>
   <body>
 
-    <responsive-child ng-app="prep-recruits">
+    <div class="outer" ng-app="prep-recruits">
 
       <img src="./assets/megaboard.jpg">
 
@@ -63,14 +63,14 @@
      </div>
 
       </div>
-    </responsive-child>
+    </div>
 
     <footer>
-          <a class="logo" href="http://seattletimes.com">
-            <img src="./assets/st-logo.png">
-          </a>
-          <a class="share-bottom"></a>
-        </footer>
+      <a class="logo" href="http://seattletimes.com">
+        <img src="./assets/st-logo.png">
+      </a>
+      <a class="share-bottom"></a>
+    </footer>
 
     <script>
       var prepData = <%= JSON.stringify(json.prepData) %>;
