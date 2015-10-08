@@ -22,7 +22,7 @@
     "year": "Sr.",
     "height": "6-0",
     "weight": 215,
-    "commitment": "Wasington",
+    "commitment": "Washington",
     "offers": "",
     "rivals": 13,
     "scout": 141
@@ -64,7 +64,7 @@
     "year": "Sr.",
     "height": "5-11",
     "weight": 180,
-    "commitment": "",
+    "commitment": "Washington",
     "offers": "",
     "rivals": 18,
     "scout": ""
@@ -148,8 +148,8 @@
     "year": "Sr.",
     "height": "6-0",
     "weight": 220,
-    "commitment": "",
-    "offers": "Boise State, Idaho, New Mexico, Notre Dame, Oregon, Oregon State, Utah, Washington, WSU",
+    "commitment": "Colorado State",
+    "offers": "",
     "rivals": "",
     "scout": ""
   },
@@ -540,7 +540,7 @@
     "year": "Sr.",
     "height": "6-2",
     "weight": 215,
-    "commitment": "",
+    "commitment": "WSU",
     "offers": "",
     "rivals": "",
     "scout": ""
@@ -640,6 +640,48 @@
     "weight": 180,
     "commitment": "",
     "offers": "",
+    "rivals": "",
+    "scout": ""
+  },
+  {
+    "title": "Raemo",
+    "first": "Raemo",
+    "last": "Trevino",
+    "school": "Ballard",
+    "position": "Defensive Tackle",
+    "year": "Sr. ",
+    "height": "6-0",
+    "weight": "",
+    "commitment": "",
+    "offers": "Portland State",
+    "rivals": "",
+    "scout": ""
+  },
+  {
+    "title": "Hunter ",
+    "first": "Hunter ",
+    "last": "Bryant",
+    "school": "Eastside Catholic",
+    "position": "Tight End",
+    "year": "Jr. ",
+    "height": "6-3",
+    "weight": 230,
+    "commitment": "",
+    "offers": "Washington",
+    "rivals": "",
+    "scout": ""
+  },
+  {
+    "title": "Jacob",
+    "first": "Jacob",
+    "last": "Sirmon",
+    "school": "Bothell",
+    "position": "Quarterback",
+    "year": "So.",
+    "height": "6-3",
+    "weight": 205,
+    "commitment": "",
+    "offers": "Washington",
     "rivals": "",
     "scout": ""
   }
