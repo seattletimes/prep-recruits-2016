@@ -6,7 +6,7 @@
     },
     "live": {
       "bucket": "projects.seattletimes.com",
-      "path": "/2015/sports/preps-megaboard/"
+      "path": "2015/sports/preps-megaboard/"
     }
   },
   "title": "Washington state high school football recruiting megaboard",
