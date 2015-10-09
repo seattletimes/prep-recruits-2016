@@ -6,15 +6,15 @@
     },
     "live": {
       "bucket": "projects.seattletimes.com",
-      "path": "/2015/sports/preps-megaboard-2015/"
+      "path": "/2015/sports/preps-megaboard/"
     }
   },
   "title": "Washington state high school football recruiting megaboard",
   "description": "The one place you can track the offers and commitments of all Washington state football recruits.",
-  "url": "http://projects.seattletimes.com/2015/sports/preps-megaboard-2015",
+  "url": "http://projects.seattletimes.com/2015/sports/preps-megaboard/",
   "slug": "megaboard-2015",
   "tags": [],
-  "image": "http://seattletimes.com/art/ui/fb_icon_large.jpg",
+  "image": "http://projects.seattletimes.com/2015/sports/preps-megaboard/assets/megaboard_social.jpg",
   "production": true,
   "embedded": true,
   "sheets": ["1_50TpANQ_F3vQV6D2eLpiie3oHQXPrltBEJtfaMfSeo"]
