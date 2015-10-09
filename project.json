@@ -16,6 +16,6 @@
   "tags": [],
   "image": "http://projects.seattletimes.com/2015/sports/preps-megaboard/assets/megaboard_social.jpg",
   "production": true,
-  "embedded": true,
+  "embedded": false,
   "sheets": ["1_50TpANQ_F3vQV6D2eLpiie3oHQXPrltBEJtfaMfSeo"]
 }
