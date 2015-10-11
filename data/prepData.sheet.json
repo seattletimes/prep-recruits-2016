@@ -28,20 +28,6 @@
     "scout": 141
   },
   {
-    "title": "Joel",
-    "first": "Joel",
-    "last": "Dublanko",
-    "school": "Aberdeen",
-    "position": "Linebacker",
-    "year": "Sr.",
-    "height": "6-3",
-    "weight": 250,
-    "commitment": "",
-    "offers": "",
-    "rivals": 14,
-    "scout": ""
-  },
-  {
     "title": "Isaac",
     "first": "Isaac",
     "last": "Garcia",
@@ -79,7 +65,7 @@
     "height": "6-3",
     "weight": 215,
     "commitment": "",
-    "offers": "",
+    "offers": "Air Force, Colorado State, Cornell, Idaho, Syracuse, UNLV, Yale",
     "rivals": 32,
     "scout": ""
   },
@@ -198,13 +184,13 @@
   {
     "title": "Lakota",
     "first": "Lakota",
-    "last": "Willis",
+    "last": "Wills",
     "school": "Richland",
     "position": "Linebacker",
     "year": "Sr.",
     "height": "6-3",
     "weight": 230,
-    "commitment": "",
+    "commitment": "Air Force",
     "offers": "",
     "rivals": "",
     "scout": ""
@@ -317,7 +303,7 @@
     "height": "6-3",
     "weight": 270,
     "commitment": "",
-    "offers": "",
+    "offers": "Idaho",
     "rivals": "",
     "scout": ""
   },
@@ -339,7 +325,7 @@
     "title": "Paul",
     "first": "Paul",
     "last": "Finau",
-    "school": "Juanita",
+    "school": "Kentwood",
     "position": "Defensive Tackle",
     "year": "Sr.",
     "height": "6-2",
@@ -359,7 +345,7 @@
     "height": "6-3",
     "weight": 225,
     "commitment": "",
-    "offers": "",
+    "offers": "Air Force, Eastern Washington, Montana, New Mexico, UNLV, Utah State",
     "rivals": "",
     "scout": ""
   },
@@ -386,7 +372,7 @@
     "year": "Sr.",
     "height": "6-1",
     "weight": 180,
-    "commitment": "",
+    "commitment": "Utah State",
     "offers": "",
     "rivals": "",
     "scout": ""
@@ -462,20 +448,6 @@
     "scout": ""
   },
   {
-    "title": "Jaiave",
-    "first": "Jaiave",
-    "last": "Magalei",
-    "school": "Lakes",
-    "position": "Quarterback",
-    "year": "Sr.",
-    "height": "6-2",
-    "weight": 205,
-    "commitment": "",
-    "offers": "",
-    "rivals": "",
-    "scout": ""
-  },
-  {
     "title": "Rey",
     "first": "Rey",
     "last": "Green",
@@ -499,7 +471,7 @@
     "height": "5-9",
     "weight": 175,
     "commitment": "",
-    "offers": "",
+    "offers": "Montana State",
     "rivals": "",
     "scout": ""
   },
@@ -514,20 +486,6 @@
     "weight": 230,
     "commitment": "",
     "offers": "Alabama, Boise State, Boston College, Colorado, Cornell, Eastern Washington, Harvard, Indiana, Missouri, Nebraska, Notre Dame, Ohio, Oregon, Oregon State, Stanford, UCLA, Utah, Washington, WSU",
-    "rivals": "",
-    "scout": ""
-  },
-  {
-    "title": "Zechariah",
-    "first": "Zechariah",
-    "last": "Brown",
-    "school": "Cleveland",
-    "position": "Defensive Back",
-    "year": "Sr.",
-    "height": "5-11",
-    "weight": 180,
-    "commitment": "",
-    "offers": "Arizona State, Idaho, Oregon, Oregon State, Stanford, UCLA, Washington, WSU, Wisconsin",
     "rivals": "",
     "scout": ""
   },
@@ -602,34 +560,6 @@
     "scout": ""
   },
   {
-    "title": "Tavin",
-    "first": "Tavin",
-    "last": "Montgomery",
-    "school": "Juanita",
-    "position": "Quarterback",
-    "year": "Sr.",
-    "height": "6-0",
-    "weight": 165,
-    "commitment": "",
-    "offers": "",
-    "rivals": "",
-    "scout": ""
-  },
-  {
-    "title": "Kolby",
-    "first": "Kolby",
-    "last": "Killoy",
-    "school": "Pasco",
-    "position": "Quarterback",
-    "year": "Sr.",
-    "height": "6-2",
-    "weight": 190,
-    "commitment": "",
-    "offers": "",
-    "rivals": "",
-    "scout": ""
-  },
-  {
     "title": "Christian",
     "first": "Christian",
     "last": "Brandt-Sims",
@@ -654,6 +584,20 @@
     "weight": "",
     "commitment": "",
     "offers": "Portland State",
+    "rivals": "",
+    "scout": ""
+  },
+  {
+    "title": "Jared",
+    "first": "Jared",
+    "last": "Goldwire",
+    "school": "Kentwood",
+    "position": "Defensive End",
+    "year": "Sr. ",
+    "height": "6-7",
+    "weight": 280,
+    "commitment": "",
+    "offers": "Hawaii",
     "rivals": "",
     "scout": ""
   },
