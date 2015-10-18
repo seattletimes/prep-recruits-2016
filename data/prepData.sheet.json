@@ -205,7 +205,7 @@
     "height": "5-11",
     "weight": 274,
     "commitment": "",
-    "offers": "Cal, Montana, Montana State, Oregon State, UC Davis, Washington, Wyoming",
+    "offers": "Montana, Montana State, UC Davis",
     "rivals": "",
     "scout": ""
   },
@@ -504,6 +504,20 @@
     "scout": ""
   },
   {
+    "title": "Davis",
+    "first": "Davis",
+    "last": "Alexander",
+    "school": "Gig Harbor",
+    "position": "Quarterback",
+    "year": "Sr.",
+    "height": "5-11",
+    "weight": 180,
+    "commitment": "Portland State",
+    "offers": "",
+    "rivals": "",
+    "scout": ""
+  },
+  {
     "title": "Hunter ",
     "first": "Hunter ",
     "last": "Bryant",
@@ -528,6 +542,20 @@
     "weight": 205,
     "commitment": "",
     "offers": "Washington",
+    "rivals": "",
+    "scout": ""
+  },
+  {
+    "title": "Connor ",
+    "first": "Connor ",
+    "last": "Wedington",
+    "school": "Sumner",
+    "position": "Athlete",
+    "year": "So. ",
+    "height": "6-0",
+    "weight": 180,
+    "commitment": "",
+    "offers": "Eastern Washington",
     "rivals": "",
     "scout": ""
   }
