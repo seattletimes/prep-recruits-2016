@@ -36,8 +36,8 @@
     "year": "Sr.",
     "height": "6-4",
     "weight": 225,
-    "commitment": "",
-    "offers": "Alabama, Arizona, Arizona State, Cal, Michigan, Oregon, Oregon State, USC, Utah, Washington, WSU",
+    "commitment": "Oregon State",
+    "offers": "Arizona, Arizona State, Cal, Michigan, Oregon, Oregon State, USC, Utah, Washington, WSU",
     "rivals": 16,
     "scout": ""
   },
@@ -330,7 +330,7 @@
     "year": "Sr.",
     "height": "6-3",
     "weight": 225,
-    "commitment": "",
+    "commitment": "Oregon State",
     "offers": "Air Force, Eastern Washington, Montana, New Mexico, UNLV, Utah State",
     "rivals": "",
     "scout": ""
@@ -443,7 +443,7 @@
     "height": "6-2",
     "weight": 230,
     "commitment": "",
-    "offers": "Alabama, Boise State, Boston College, Colorado, Cornell, Eastern Washington, Harvard, Indiana, Missouri, Nebraska, Notre Dame, Ohio, Oregon, Oregon State, Stanford, UCLA, Utah, Washington, WSU",
+    "offers": "Cornell, Ohio, Washington",
     "rivals": "",
     "scout": ""
   },
